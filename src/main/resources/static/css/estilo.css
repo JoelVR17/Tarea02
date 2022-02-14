@@ -1,0 +1,81 @@
+/*By:JoelVR*/
+
+#encabezado {
+    
+    background-color: #FF4031;
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 8%;
+    width: 100%;
+    
+}
+
+#h1 {
+    
+    text-align: center;
+    font-family: cursive;
+    font-size: 30px;
+    
+    
+}
+
+#menu {
+    
+    position: fixed;
+    top: 8%;
+    left: 0;
+    height: 4%;
+    width: 100%;
+    background: linear-gradient(#FF4031,orange);
+    color: white;
+    
+}
+
+#menu a {
+    
+    color: aliceblue;
+    
+}
+
+.cuerpo {
+    
+    position: fixed;
+    padding: 1%;
+    top: 12%;
+    left: 10%;
+    height: 90%;
+    width: 90%;
+    background-color: lightgray;
+    overflow: auto;
+    
+}
+
+#barraLateral {
+    
+    text-align: center;
+    font-size: 12px;
+    position: absolute;
+    top: 12%;
+    left: 0;
+    height: 85%;
+    width: 10%;
+    background:linear-gradient(orange,white)
+    
+}
+
+
+#piePagina {
+    
+    font-style: italic;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2.5%;
+    width: 100%;
+    background-color: white;
+    text-align: right;
+    font-size: 12px;
+    
+}
