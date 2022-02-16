@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <!--By: JoelVR-->
-<html>
+<html lang = "es">
     
     <!--SE ABRE EL HEAD-->
     <head>
-        <title>TODO supply a title</title>
+        <title>Tienda Futura</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="css/estilo.css" rel="stylesheet" type="text/css"/>
@@ -20,15 +20,15 @@
                 <a href="index.html" class="logo nav-link">Futura</a>
                 <ul class="nav-menu">
                     
-                    <li class="nav-menu-item"><a href="ejemplo5.html" class="nav-menu-link nav-link">&DoubleLongLeftArrow;</a></li>
-                    
-                    <li class="nav-menu-item"><a href="ejemplo2.html" class="nav-menu-link nav-link">&DoubleLongRightArrow;</a></li>
-                    
                     <li class="nav-menu-item"><a href="registrarse.html" class="nav-menu-link nav-link">Registrarse</a></li>
                     
-                    <li class="nav-menu-item"><a href="comprar.html" class="nav-menu-link nav-link">Comprar</a></li>
-                    
                     <li class="nav-menu-item"><a href="ver_producto.html" class="nav-menu-link nav-link">Ver Productos</a></li>
+                    
+                    <li class="nav-menu-item"><a href="aboutUs.html" class="nav-menu-link nav-link">About Us</a></li>
+                    
+                    <li class="nav-menu-item"><a href="preguntasFrecuentes.html" class="nav-menu-link nav-link">Preguntas Frecuentes</a></li>
+                    
+                    <li class="nav-menu-item"><a href="ubicacion.html" class="nav-menu-link nav-link">Ubicación</a></li>
                     
                 </ul>
             </nav>
@@ -42,17 +42,30 @@
          <!-- SE ESTABLECE EL CONTENIDO PRINCIPAL -->
         <section class="cuerpo">
             
-            <div style="animation: unset">
-                <br>
-                <label> Nombre: </label><input type="text" name="Nombre" placeholder="Escriba aqui" maxlength="15"/><br><br>
-                <label> Apellidos: </label><input type="text" name="Apellidos" placeholder="Escriba aqui" maxlength="30"/><br><br>
-                <label> Fecha de Nacimiento: </label><input type="date" name="Fecha Nacimiento"/><br><br>
-                <label> Email: </label><input type="email" name="email" placeholder="Escriba aqui"/><br><br>
-                <label> Password: </label><input type="password" name="password" placeholder="Escriba aqui"/><br><br>
-                <div style="padding: 0 70px">
-                    <input type="submit" name="enviar datos" style="height: 20px; width: 100px"/>
-                </div>
-            </div>
+            <form action="#">
+                <table>
+                        <br>
+                        <tr>
+                            <td><label> Nombre: </label><input type="text" name="Nombre" placeholder="Escriba aqui" maxlength="15"/><br><br></td>
+                        </tr>
+                        <tr>
+                            <td><label> Apellidos: </label><input type="text" name="Apellidos" placeholder="Escriba aqui" maxlength="30"/><br><br></td>
+                        </tr>
+                        <tr>
+                            <td><label> Fecha de Nacimiento: </label><input type="date" name="Fecha Nacimiento"/><br><br></td>
+                        </tr>
+                        <tr>
+                            <td><label> Email: </label><input type="email" name="email" placeholder="Escriba aqui"/><br><br></td>
+                        </tr>
+                        <tr>
+                            <td><label> Password: </label><input type="password" name="password" placeholder="Escriba aqui"/><br><br></td>
+                        </tr>
+                        
+                        <tr><td><div style="padding: 0 70px">
+                            <input type="submit" name="enviar datos" style="height: 20px; width: 100px"/>
+                                </div></td></tr>
+                </table>
+            </form>
             
         </section>
          
